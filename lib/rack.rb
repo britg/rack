@@ -36,6 +36,7 @@ module Rack
   autoload :ForwardRequest, "rack/recursive"
   autoload :Handler, "rack/handler"
   autoload :Head, "rack/head"
+  autoload :Options, "rack/options"
   autoload :Lint, "rack/lint"
   autoload :Lock, "rack/lock"
   autoload :MethodOverride, "rack/methodoverride"
