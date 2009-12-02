@@ -76,6 +76,7 @@ module Rack
     def put?;            request_method == "PUT"                  end
     def delete?;         request_method == "DELETE"               end
     def head?;           request_method == "HEAD"                 end
+    def options?;        request_method == "OPTIONS"              end
 
     # The set of form-data media-types. Requests that do not indicate
     # one of the media types presents in this list will not be eligible
